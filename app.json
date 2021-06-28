@@ -1,0 +1,12 @@
+{
+  "name": "GymAssistant",
+  "displayName": "GymAssistant",
+  "expo": {
+    "name": "GymAssistant",
+    "slug": "GymAssistant",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
