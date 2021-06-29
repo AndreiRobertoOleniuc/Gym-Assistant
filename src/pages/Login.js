@@ -1,16 +1,20 @@
 import React,{useEffect,useState} from 'react';
 import {View, StyleSheet, Text, TouchableOpacity, TextInput} from 'react-native';
 
-const Login = () => {
+const Login = ({navigation}) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Login</Text>
             <TextInput style={styles.input} placeholder="Email"/>
             <TextInput style={styles.input} placeholder="Password" secureTextEntry={true}/>
             <Text style={styles.forgot}>Forgot Password ?</Text>
-            <TouchableOpacity style={styles.login}><Text style={styles.text}>Login</Text></TouchableOpacity>
+            <TouchableOpacity style={styles.login} onPress={() => navigation.navigate('Home')}>
+                <Text style={styles.text}>Login</Text>
+            </TouchableOpacity>
             <Text style={styles.or}>Or</Text>
-            <TouchableOpacity style={styles.create}><Text style={styles.text}>Create an Account</Text></TouchableOpacity>
+            <TouchableOpacity style={styles.create}>
+                <Text style={styles.text}>Create an Account</Text>
+            </TouchableOpacity>
         </View>
     );
 }
