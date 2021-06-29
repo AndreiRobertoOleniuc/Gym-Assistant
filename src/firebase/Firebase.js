@@ -1,12 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyApqSLy-9vzM5KI8kF6qcoHd7OjVbuPFHs",
-    authDomain: "gofit-f423b.firebaseapp.com",
-    projectId: "gofit-f423b",
-    storageBucket: "gofit-f423b.appspot.com",
-    messagingSenderId: "179650405725",
-    appId: "1:179650405725:web:98a6517f0f1714256574b4"
+    apiKey: "AIzaSyD-06-tsU1b5OosUCClekFiZkl1uJxnTV4",
+    authDomain: "gym-assistant-38760.firebaseapp.com",
+    projectId: "gym-assistant-38760",
+    storageBucket: "gym-assistant-38760.appspot.com",
+    messagingSenderId: "400856230884",
+    appId: "1:400856230884:web:657af86ae52a69425335f1",
+    measurementId: "G-NQY311CEG5"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
