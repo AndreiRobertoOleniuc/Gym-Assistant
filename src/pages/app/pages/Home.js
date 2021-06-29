@@ -1,14 +1,23 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet,Text} from 'react-native';
 
 const Home = ({navigation}) => {
     return (
-        <View>
+        <View style={styles.container}>
             <Text>Hello</Text>
         </View>
     );
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        flexDirection:"column",
+        alignItems:"center",
+        backgroundColor:"#000000",
+        padding:30,
+        fontFamily:"nunito-regular",
+    },
+})
 
 export default Home;

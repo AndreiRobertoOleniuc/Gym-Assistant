@@ -14,7 +14,7 @@ const Container = () => {
             style={{ backgroundColor: '#282828' }}
             tabBarOptions={{
             style:{
-                backgroundColor: '#282828'
+                backgroundColor: '#000000'
             }
         }}>
             <Tab.Screen 
